@@ -30,3 +30,28 @@
     transform: rotate(360deg);
   }
 }
+
+.film-releases {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background: lightgray;
+  color: black;
+}
+
+.film-releases .release-list a{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.view-more a {
+  text-decoration: none;  
+}
+
+.imdb-link {
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  background: cornflowerblue;
+  color: black;
+}

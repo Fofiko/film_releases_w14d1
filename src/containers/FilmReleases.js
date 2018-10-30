@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReleaseList from '../components/ReleaseList'
+import ViewMore from '../components/ViewMore'
 
 class FilmReleases extends Component {
 
@@ -40,7 +41,7 @@ class FilmReleases extends Component {
             <div className="film-releases">
                 <h2>Upcoming Film Releases for UK</h2>
                 <ReleaseList data={this.state.data} />
-                <a href="https://www.imdb.com/calendar/?region=gb"><h4 className="imdblink">View upcoming releases</h4></a>
+                <ViewMore />
             </div>
         )
     }
