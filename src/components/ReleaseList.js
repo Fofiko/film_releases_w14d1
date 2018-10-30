@@ -6,10 +6,10 @@ class ReleaseList extends Component {
 
         const releaseNodes = this.props.data.map(release => {
             return (
-                <Release>
+                <Release
                     key={release.id}
                     name={release.name}
-                    url={release.url}>
+                    url={release.url}>{release.name}
                 </Release>
             )
         })
