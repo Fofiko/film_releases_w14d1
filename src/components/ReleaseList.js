@@ -16,7 +16,9 @@ class ReleaseList extends Component {
 
         return (
             <div className="release-list">
-                {releaseNodes}
+                <ul>
+                    {releaseNodes}
+                </ul>
             </div>
         ) 
     }
